@@ -46,7 +46,7 @@
 - **Service Version Detection**: Performs service version detection.
   - Command: `nmap -sV -v <target IP>`
 - **Aggressive Scan**: Performs aggressive scan.
-  - Command: `nmap -A -v <target IP>`
+  - Command: `nmap -A -v <target IP>` or `nmap -T4 -A -v <target IP>`
 
 ### OS Discovery
 - **SMB OS Discovery**: Uses NSE script to discover OS over SMB.
