@@ -104,7 +104,7 @@
 
 ### WEB Enumeration
  - **Enumerating a web application**
-   -Commnad: `nmap -sV --script=http-enum <target IP>`
+   - Commnad: `nmap -sV --script=http-enum <target IP>`
 
 ## NSE Scripts
 
