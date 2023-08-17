@@ -102,11 +102,16 @@
 - **SMTP Commands**: Enumerates SMTP commands.
   - Command: `nmap -p 25 --script smtp-commands <target IP>`
 
+### WEB Enumeration
+ - **Enumerating a web application**
+   -Commnad: `nmap -sV --script=http-enum <target IP>`
+
 ## NSE Scripts
 
 - **nbstate.nse**: NetBIOS Enumeration
 - **snmp-sysdescr**: SNMP System Description
 - **snmp-processes**: SNMP Processes
+- **http-enum**: For enumerating a web application
 - ...
 
 ---
