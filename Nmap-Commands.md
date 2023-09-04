@@ -68,7 +68,7 @@
 
 ### NetBIOS Enumeration
 - **Nmap Script**: Uses NSE script for NetBIOS enumeration.
-  - Command: `nmap -sV -v --script nbstate.nse <target IP>`
+  - Command: `nmap -sV -v --script nbstat.nse <target IP>`
 - **NetBIOS Statistics**: Uses NSE script to retrieve NetBIOS statistics.
   - Command: `nmap -sU -p 137 --script nbstat.nse <target IP>`
 
