@@ -105,6 +105,9 @@
 ### WEB Enumeration
  - **Enumerating a web application**
    - Commnad: `nmap -sV --script=http-enum <target IP>`
+   - Command: `nmap --script hostmap-bfk -script-args hostmap-bfk.prefix=hostmap- www.goodshopping.com` For hostname enumeration
+   - Command: `nmap -p 80 --script http-waf-detect certifiedhacker.com` For Firewall detection
+   - Command: `nmap --script http-trace certifiedhacker.com` For HTTP-Trace
 
 ## NSE Scripts
 
