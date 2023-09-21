@@ -109,6 +109,12 @@
    - Command: `nmap -p 80 --script http-waf-detect certifiedhacker.com` For Firewall detection
    - Command: `nmap --script http-trace certifiedhacker.com` For HTTP-Trace
 
+
+### Others
+ - **For detecting sniffing**
+   - Command: `nmap --script=sniffer-detect [Target IP Address/ IP Address Range]`
+     
+
 ## NSE Scripts
 
 - **nbstate.nse**: NetBIOS Enumeration
