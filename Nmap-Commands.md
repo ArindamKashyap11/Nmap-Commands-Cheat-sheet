@@ -63,6 +63,10 @@
   - Command: `nmap -D RND:10 <target IP>`
 - **Spoofed MAC Address Scan**: Performs TCP SYN scan with spoofed MAC.
   - Command: `nmap -sS -Pn --spoof-mac <spoofed MAC address> <target IP>`
+- **Ping Sweep scan on the subnet to discover the live machines in the network**
+  - Command: `nmap -sP 10.10.1.0/24`
+- **Zombie scan to bypass the firewall rule**
+  - Command: `nmap -sI <Zombie IP> <target IP>`
 
 ## Enumeration
 
