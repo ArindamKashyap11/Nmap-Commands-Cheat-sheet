@@ -127,6 +127,7 @@
 - **http-enum**: For enumerating a web application
 - ...
 
+-sn : disable port scan
 ---
 
 Replace placeholders such as `<target IP>`, `<IP range>`, `<target n/w>`, `<spoofed MAC address>`, and `<target domain>` with appropriate values.
