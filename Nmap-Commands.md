@@ -118,6 +118,8 @@
  - **For detecting sniffing**
    - Command: `nmap --script=sniffer-detect [Target IP Address/ IP Address Range]`
      
+- sn : disable port scan
+
 
 ## NSE Scripts
 
