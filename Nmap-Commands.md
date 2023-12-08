@@ -106,6 +106,9 @@
 - **SMTP Commands**: Enumerates SMTP commands.
   - Command: `nmap -p 25 --script smtp-commands <target IP>`
 
+### RPC, SMB and FTP Enumeration
+ - Command: `nmap -p [Target Port] -A [Target IP Address]`, where for SMB(445), RPC(111) and FTP(21)
+
 ### WEB Enumeration
  - **Enumerating a web application**
    - Commnad: `nmap -sV --script=http-enum <target IP>`
