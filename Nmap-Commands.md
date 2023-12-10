@@ -89,6 +89,8 @@
 ### LDAP Enumeration
 - **LDAP Brute-Force**: Performs brute-force LDAP authentication.
   - Command: `nmap -p 389 --script ldap-brute --script-args ldap.base='"cn=users,dc=CEH,dc=com"' <target n/w>`
+- **For getting the CN, DC and domains**
+  - Command: `nmap --script ldap-search --script-args 'ldap.domain=<domain>,ldap.whoami=true' -p 389 <target>`
 
 ### DNS Enumeration
 - **DNS Service Discovery**: Discovers DNS services using NSE script.
