@@ -110,6 +110,8 @@
 
 ### RPC, SMB and FTP Enumeration
  - Command: `nmap -p [Target Port] -A [Target IP Address]`, where for SMB(445), RPC(111) and FTP(21)
+ - Command: `nmap --script smb-security-mode -p 445 192.168.0.51`, for SMB security features
+
 
 ### WEB Enumeration
  - **Enumerating a web application**
